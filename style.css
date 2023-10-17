@@ -3,6 +3,10 @@ body {
   padding: 0;
   background: #081b29;
 }
+
+p {
+  font-family: sans-serif;
+}
 /* NAV-BAR Start */
 nav {
   width: 100%;
@@ -37,7 +41,7 @@ li {
 
 .git-hub-logo img:hover {
 
-  box-shadow: 0 0 2px 1px wheat;
+  box-shadow: 0 0 2px 1px rgb(231, 181, 87);
 
 }
 
@@ -88,7 +92,7 @@ article section {
 .home-content h3 {
   font-size: 36px;
   font-weight: 700;
-  color: aqua;
+  color: rgb(52, 90, 90);
 }
 
 .home-content p {
@@ -129,6 +133,7 @@ article section {
 }
 
 .about-content h3 {
+  font-size: 26px;
   text-decoration: underline;
 }
 /* about.html end */
@@ -164,4 +169,33 @@ article section {
 .text-imgs {
   height: 300px;
   width: 400px;
+  border-radius: 8px;
+}
+
+.flex {
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-left: 10px;
+
+}
+/* about and portfolio imgs */
+
+/* getting the image and text side by side */
+
+article .port-content {
+  background-color: darkcyan;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 50%;
+  margin: 160px auto 0 auto;
+  border-radius: 10px;
+}
+
+.port-content h3 {
+  margin: 0;
+}
+
+.port-content p {
+  margin-right: 25px;
 }
