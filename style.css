@@ -159,3 +159,9 @@ article section {
   text-decoration: underline;
 }
 /*portfolio End */
+
+/* about and portfolio imgs */
+.text-imgs {
+  height: 300px;
+  width: 400px;
+}
